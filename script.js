@@ -22,6 +22,7 @@ clearButton.addEventListener("click", function () {
     let activeDivs = document.querySelectorAll('.active');
     let divArray = Array.from(activeDivs);
     
+    //Method that cycles through the array and applies the clearfunction function. 
     divArray.forEach(clearfunction);
     
     function clearfunction(element) {
