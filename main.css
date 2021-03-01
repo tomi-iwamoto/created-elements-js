@@ -5,3 +5,14 @@
     align-items: center;
     width: 40%;
 }
+
+#newDivId {
+    background-color:yellow;
+    width:30%;
+    padding:20px;
+    border:magenta solid 1px;
+}
+
+.active {
+    display:flex;
+}
